@@ -206,30 +206,33 @@ pub fn main() void {
 
     var licstring="34T6L4C9PXX8D9CGYD268SQWM";
     var license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="3Q23VVTZ39HLB6LYNMNCC8YRN";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="35DPHSVSXJHGBJNC7N5R2SS4W";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="35SCRRYLMLCBK7NTD3B9GGBW2";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="34T6L4C9PXX8D9CGYD268SQWM";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="35DRP7B3TX78VVM7KX4YXS74X";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="32Q8YXZVGQ4SGJB4KY3RM9ZBN";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     licstring="3Q25NWTSXHKLD2Z8X7M57VWW2";
     license2 = IloLicenseKey.from_string(licstring);
-    std.debug.print("license: {s}: {s}\n",.{licstring, license2});
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
+    licstring="3QBDYXGHT22LL26KK4XQXLTX6";
+    license2 = IloLicenseKey.from_string(licstring);
+    std.debug.print("license: {s}: {any}\n",.{licstring, license2});
     
-    
+       
 }
 
 
